@@ -35,4 +35,5 @@ assets/: Pasta contendo os arquivos de estilo CSS, imagens e bibliotecas externa
 js/: Pasta contendo os arquivos JavaScript para manipulação da lógica do sistema.
 
 Agradecimentos
+
 Este projeto foi desenvolvido com base nos conhecimentos adquiridos no curso oferecido pela Growdev. Agradecemos pela excelente plataforma de aprendizado e pela oportunidade de desenvolver habilidades práticas na área de desenvolvimento de software.
