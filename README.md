@@ -1,39 +1,59 @@
-﻿# projeto_Nikel
- Controle Financeiro - Aplicação Web
 
-Este projeto é uma aplicação de controle financeiro onde os usuários podem registrar transações, ver resumos de entradas e saídas de dinheiro, e acompanhar o total acumulado. A aplicação permite a criação de contas, login, e gerenciamento de transações financeiras de forma simples e intuitiva.
+# 💰 projeto_Nikel – Controle Financeiro Web
 
-Funcionalidades
-Criação de Conta: Usuários podem criar uma conta usando um e-mail e senha.
+Aplicação web para controle financeiro pessoal. Registre suas entradas e saídas, visualize seu saldo total e gerencie suas finanças de maneira simples e intuitiva!
 
-Login e Sessão: Usuários podem fazer login e a sessão é mantida usando localStorage e sessionStorage.
+---
 
-Registro de Transações: Usuários podem adicionar transações (entrada ou saída de dinheiro) com valor, descrição e data.
+## 🚀 Funcionalidades
 
-Visualização de Transações: Usuários podem visualizar suas transações recentes com o tipo (entrada ou saída) e o total acumulado.
+- 🧾 **Criação de Conta**  
+  Crie sua conta com e-mail e senha.
 
-Logout: Usuários podem sair da sua conta a qualquer momento.
+- 🔐 **Login com Sessão**  
+  Sessão gerenciada via `localStorage` e `sessionStorage`.
 
-Tecnologias Utilizadas
-HTML5: Para a estrutura da aplicação.
+- ➕ **Registro de Transações**  
+  Adicione entradas e saídas com valor, descrição e data.
 
-CSS3: Para o estilo da aplicação.
+- 📊 **Visualização de Transações**  
+  Veja transações recentes e o total acumulado.
 
-JavaScript: Para a funcionalidade da aplicação, incluindo manipulação de DOM, armazenamento local (localStorage/sessionStorage) e validação de dados.
+- 🔓 **Logout Seguro**  
+  Encerre sua sessão com segurança a qualquer momento.
 
-Bootstrap: Para a interface de usuário responsiva e componentes como modais.
+---
 
-Estrutura do Projeto
-index.html: Página de login onde o usuário insere e-mail e senha para acessar a aplicação.
+## 🛠️ Tecnologias Utilizadas
 
-home.html: Página principal onde o usuário pode adicionar transações, ver o saldo e gerenciar lançamentos financeiros.
+- 🌐 **HTML5** – Estrutura da aplicação  
+- 🎨 **CSS3** – Estilização  
+- ⚙️ **JavaScript** – Funcionalidade, DOM e validações  
+- 🧱 **Bootstrap** – Responsividade e componentes UI
 
-transactions.html: Página onde o usuário pode visualizar o histórico completo de suas transações.
+---
 
-assets/: Pasta contendo os arquivos de estilo CSS, imagens e bibliotecas externas.
+## 📁 Estrutura do Projeto
 
-js/: Pasta contendo os arquivos JavaScript para manipulação da lógica do sistema.
+```
+projeto_Nikel/
+│
+├── index.html            # Tela de login
+├── home.html             # Página principal (saldo, lançamentos)
+├── transactions.html     # Histórico de transações
+│
+├── assets/
+│   └── css/              # Estilos
+│   └── img/              # Imagens
+│   └── libs/             # Bibliotecas externas
+│
+└── js/                   # Lógica JS
+```
 
-Agradecimentos
+---
 
-Este projeto foi desenvolvido com base nos conhecimentos adquiridos no curso oferecido pela Growdev. Agradecemos pela excelente plataforma de aprendizado e pela oportunidade de desenvolver habilidades práticas na área de desenvolvimento de software.
+## 🙌 Agradecimentos
+
+Este projeto foi desenvolvido com base nos conhecimentos adquiridos no curso da **Growdev**. Agradecemos pela excelente plataforma e por possibilitar o desenvolvimento de habilidades práticas!
+
+---
